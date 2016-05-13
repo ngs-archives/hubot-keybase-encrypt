@@ -1,0 +1,28 @@
+language: node_js
+env:
+- MOCHA_REPORTER=spec
+node_js:
+- '5'
+- '5.1'
+- '4'
+- '4.2'
+- '4.1'
+- '4.0'
+- '0.12'
+- '0.11'
+- '0.10'
+- iojs
+notifications:
+  on_success: always
+  on_failure: always
+  on_start: always
+  webhooks:
+  - http://ngs-hubot.herokuapp.com/travisci/hooks
+deploy:
+  provider: npm
+  email: a@ngs.io
+  api_key:
+    secure: sLNutJuDfygq9ykMwcPpNpUQFWvciN05TZdES5ZusXzAkOB3PZVmqdtJmea6kfAjB22wpSp6N1YOZEDhH3NMVcFjZ70CsSmFnxv73FZFbVH5uF8l6V5Cwd6e+DDGwuInP0KzTMEIFO17PXEpLdDt0WbN9XH59kxeHiTLKFdQRuiYLxbxQY1xX2rTAhiCOJwk6DWBEdPmiuQrad1ABiCkny5ZMUGa/deHqWtMwQeTtEv8FAEZqh920mHZsxQdmviu+vd51S5w8oJwiUqGWAClD89ALypjEo6SCrozzIiVK4eGpc9TrPv1wug8pn1l2y/l6poD5titvAz7ZrTRZ/dzHE+eMHYbcizt8mshhJEzE18EJCvKoALoiSfAism0aUj5SpkG98l20PyEi12NN3kUaDxcsee0Upnnb1DHe9a/Ck0HPXIpZ4xxL+Kh0kMVCrthbH/z3Vhm7mZsXb2Z1ZlyV2kaMPqCwI3MBg3u3cRajvGamAP0bmpMtgv4DsZPcRUhswAK9hLtyGYQ0vnZz4vK7qPxcwjxzmFVWb+lnesD5sAXmeotZOFwijumBV80VOhJI1cdWwGGwNw4NYMDqn5UJtUvmcFZn3W8jpjKtT9Ve4T2nKKeh1aULMMFUzj9e86WlKxZ+rRkP8iRwuB/T93BPpJYSG9+z9nfSxMIJmiH858=
+  on:
+    tags: true
+    repo: ngs/hubot-keybase
