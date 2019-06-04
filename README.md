@@ -1,5 +1,7 @@
-hubot-keybase
+hubot-keybase-encrypt
 =============
+
+:warning: `hubot-keybase` was renamed to `hubot-keybase-encrypt` from v0.1.1. [hubot-keybase] is now official Hubot adapter.
 
 [![Build Status][travis-badge]][travis]
 [![npm-version][npm-badge]][npm]
@@ -36,7 +38,7 @@ Installation
 2. Update `external-scripts.json`
 
   ```json
-  ["hubot-keybase"]
+  ["hubot-keybase-encrypt"]
   ```
 
 Author
@@ -53,8 +55,9 @@ License
 [Hubot]: http://hubot.github.com/
 [Atsushi Nagase]: http://ngs.io/
 [MIT License]: LICENSE
-[travis-badge]: https://travis-ci.org/ngs/hubot-keybase.svg?branch=master
-[npm-badge]: http://img.shields.io/npm/v/hubot-keybase.svg
-[travis]: https://travis-ci.org/ngs/hubot-keybase
-[npm]: https://www.npmjs.org/package/hubot-keybase
+[travis-badge]: https://travis-ci.org/ngs/hubot-keybase-encrypt.svg?branch=master
+[npm-badge]: http://img.shields.io/npm/v/hubot-keybase-encrypt.svg
+[travis]: https://travis-ci.org/ngs/hubot-keybase-encrypt
+[npm]: https://www.npmjs.org/package/hubot-keybase-encrypt
 [Keybase]: https://keybase.io
+[hubot-keybase]: https://www.npmjs.com/package/hubot-keybase
