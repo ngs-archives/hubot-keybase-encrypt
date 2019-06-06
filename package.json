@@ -1,6 +1,6 @@
 {
-  "name": "hubot-keybase",
-  "version": "0.1.0",
+  "name": "hubot-keybase-encrypt",
+  "version": "0.1.1",
   "description": "A Hubot script that encrypts messages for Keybase users",
   "main": "./src/index.coffee",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ngs/hubot-keybase.git"
+    "url": "git://github.com/ngs/hubot-keybase-encrypt.git"
   },
   "keywords": [
     "hubot",
@@ -24,9 +24,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngs/hubot-keybase/issues"
+    "url": "https://github.com/ngs/hubot-keybase-encrypt/issues"
   },
-  "homepage": "https://github.com/ngs/hubot-keybase#readme",
+  "homepage": "https://github.com/ngs/hubot-keybase-encrypt#readme",
   "dependencies": {
     "openpgp": "^2.3.0"
   },
