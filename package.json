@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/ngs/hubot-keybase#readme",
   "dependencies": {
-    "openpgp": "^2.3.0"
+    "openpgp": "^4.6.2"
   },
   "devDependencies": {
     "hubot": "~2.8.0",
